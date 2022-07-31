@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "moduleResolution": "node",
+    "module": "esnext",
+    "lib": ["es6", "dom",
+    "dom.iterable",
+    "esnext"],
+    "allowJs": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+  },
+  "include": ["**/*.tsx"]
+}

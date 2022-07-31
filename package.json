@@ -1,0 +1,25 @@
+{
+  "name": "initial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ./main.js",
+    "build": "npm-run-all build:*",
+    "build:react": "tsc",
+    "build:node": "tsc --project ./tsconfig.node.json"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "electron": "^5.0.7",
+    "npm-run-all": "^4.1.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "4.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.2",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6"
+  }
+}
